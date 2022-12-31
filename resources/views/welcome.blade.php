@@ -6,13 +6,13 @@
     <title>Banking-app</title>
 </head>
 <body>
-<div class="flex ...">
-  <div class="flex-1 ...">01</div>
-  <div class="contents">
-    <div class="flex-1 ...">02</div>
-    <div class="flex-1 ...">03</div>
+<div class="p-4">
+  <div class="flow-root bg-blue-500">
+    <div class="my-4">Well, let me tell you something, ...</div>
   </div>
-  <div class="flex-1 ...">04</div>
+  <div class="flow-root">
+    <div class="my-4">Sure, go ahead, laugh if you want...</div>
+  </div>
 </div>
 </body>
 </html>
