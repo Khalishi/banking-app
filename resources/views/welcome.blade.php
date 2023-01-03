@@ -16,8 +16,9 @@
           <li>Register</li>
        </ul>
      </nav>
-     <h1>FBIF</h1>
+     
     <nav>
+      <h1>FBIF</h1>
         <ul class="bg-black flex text-white items-center pt-4 pb-4 space-x-8 pl-72 ">
             <li>Home</li>
             <li>Pay</li>
