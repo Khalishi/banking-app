@@ -13,10 +13,10 @@
      <nav>
        <ul class="flex space-x-4 ml-80 pl-96 pt-4">
           <li>
-            <a class="hover:bg-gray-600" href="#">Login</a>
+            <a class="hover:underline" href="#">Login</a>
         </li>
           <li>
-            <a class="hover:bg-gray-600" href="#">Register</a>
+            <a class="hover:underline" href="#">Register</a>
         </li>
        </ul>
      </nav>
@@ -24,40 +24,40 @@
     <nav>
         <ul class="bg-black flex text-white items-center pt-4 pb-4 space-x-8 pl-72">
             <li>
-              <a class="hover:bg-gray-600 rounded-full" href="#">Home</a>
+              <a class="hover:underline" href="#">Home</a>
             </li>
             <li>
-              <a class="hover:bg-gray-600 rounded-full" href="#">Pay</a>
+              <a class="hover:underline" href="#">Pay</a>
             </li>
             <li>
-              <a class="hover:bg-gray-600 rounded-full" href="#">Cards</a>
+              <a class="hover:underline" href="#">Cards</a>
             </li>
             <li>
-              <a class="hover:bg-gray-600 rounded-full" href="#">Prepaid mobile</a>
+              <a class="hover:underline" href="#">Prepaid mobile</a>
             </li>
             <li>
-               <a class="hover:bg-gray-600 rounded-full" href="#">Buy electricity</a>
+               <a class="hover:underline" href="#">Buy electricity</a>
             </li>
             <li>
-              <a class="hover:bg-gray-600 rounded-full" href="#">Transfer money</a>
+              <a class="hover:underline" href="#">Transfer money</a>
           </li>
             <li>
-              <a class="hover:bg-gray-600 rounded-full" href="#">Open account</a>
+              <a class="hover:underline" href="#">Open account</a>
           </li>
             <li>
-              <a class="hover:bg-gray-600 rounded-full" href="#">Careers</a>
+              <a class="hover:underline" href="#">Careers</a>
           </li>
             <li>
-              <a class="hover:bg-gray-600 rounded-full" href="#">Loan</a>
+              <a class="hover:underline" href="#">Loan</a>
           </li>
             <li>
-              <a class="hover:bg-gray-600 rounded-full" href="#">Invest</a>
+              <a class="hover:underline" href="#">Invest</a>
           </li>
             <li>
-              <a class="hover:bg-gray-600 rounded-full" href="#">About us</a>
+              <a class="hover:underline" href="#">About us</a>
           </li>
             <li>
-              <a class="hover:bg-gray-600 rounded-full" href="#">Contact us</a>
+              <a class="hover:underline" href="#">Contact us</a>
           </li>
         </ul>
 
