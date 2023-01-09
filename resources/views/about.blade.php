@@ -1,5 +1,4 @@
 <x-layout>
-    <section>
     <h1 class="font-bold pl-4 pt-4">ABOUT US</h1>
       <div class="grid grid-cols-2 gap-14 pl-4 pt-8 text-xl">
             <div class="bg-gray-200 rounded-xl">
@@ -16,5 +15,5 @@
                 It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
                 publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </div>
-    </section>
-</x-layout>
+         </div>
+ </x-layout>
