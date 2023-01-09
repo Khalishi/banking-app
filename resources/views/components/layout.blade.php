@@ -57,7 +57,7 @@
               <a class="hover:underline" href="/about">About us</a>
           </li>
             <li>
-              <a class="hover:underline" href="#">Contact us</a>
+              <a class="hover:underline" href="/contact">Contact us</a>
           </li>
         </ul>
 
