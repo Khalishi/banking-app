@@ -19,7 +19,7 @@
 
       <div class="grid grid-cols-3 gap-14 pl-4 pt-8 text-xl font-bold">
             <div>
-                Start banking and invest with us
+                Start banking with us
             </div>
           
             <div>
@@ -27,7 +27,7 @@
             </div>
 
               <div>
-                Get a black card and start flexing
+                Get a black card 
             </div>
     </section>
 </x-layout>
