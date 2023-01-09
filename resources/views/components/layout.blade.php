@@ -24,7 +24,7 @@
     <nav>
         <ul class="bg-black flex text-white items-center pt-4 pb-4 space-x-8 pl-72">
             <li>
-              <a class="hover:underline" href="#">Home</a>
+              <a class="hover:underline" href="/">Home</a>
             </li>
             <li>
               <a class="hover:underline" href="#">Pay</a>
@@ -54,14 +54,14 @@
               <a class="hover:underline" href="#">Invest</a>
           </li>
             <li>
-              <a class="hover:underline" href="#">About us</a>
+              <a class="hover:underline" href="/about">About us</a>
           </li>
             <li>
               <a class="hover:underline" href="#">Contact us</a>
           </li>
         </ul>
 
-        <h1 class="text-xl font-bold text-green-500 bg-gray-500">FBIF</h1>
+        <h1 class="text-xl font-bold text-green-500 bg-gray-500 pl-4">FBFI</h1>
 
       </nav>
   
