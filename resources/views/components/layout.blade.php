@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <title>Banking-app</title>
 </head>
 <body>
@@ -27,32 +28,30 @@
               <a class="hover:underline" href="/">Home</a>
             </li>
 
- <li>
-               
-     <button id="dropdownNavbarButton" data-dropdown-toggle="dropdownNavbar" 
-     class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-white border-b border-gray-100 md:border-0 md:hover:text-gray-200 md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
-     Pay <svg class="w-4 h-4 ml-1" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" 
-     xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-      clip-rule="evenodd"></path></svg></button>
+        <li>
+            <div x-data="{ show: false }" @click.away = "show = false">
 
-     <!-- Dropdown menu -->
+              <button 
+                  @click="show = ! show" 
+                  class="py-2 pl-3 pr-9 text-sm font-semibold flex"
+                     >Pay
+                         <svg class="w-4 h-4 ml-1" aria-hidden="true" fill="currentColor" 
+                             viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path 
+                               fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" 
+                                  clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                    </button>
 
-          <div id="dropdownNavbar" class="z-10 hidden bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-                <ul class="py-1 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownNavbarButton">
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
-                  </li>
-                </ul>
-                <div class="py-1">
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Sign out</a>
+              <div x-show="show" class="py-2 absolute text-black bg-blue-200 mt-2 z-50" style="display: none">
+
+                 <a href="" class="block text-left px-3 text-lg leading-6 hover:bg-blue-500 focus:bg-blue-500 hover:text-white focus:text-white">oneghhh</a>
+                 <a href="" class="block text-left px-3 text-lg leading-6 hover:bg-blue-500 focus:bg-blue-500 hover:text-white focus:text-white">two</a>
+                 <a href="" class="block text-left px-3 text-lg leading-6 hover:bg-blue-500 focus:bg-blue-500 hover:text-white focus:text-white">three</a>
+                 <a href="" class="block text-left px-3 text-lg leading-6 hover:bg-blue-500 focus:bg-blue-500 hover:text-white focus:text-white">three</a>
+                 
+              </div>
             </div>
-         </div>
 
         </li>
 
