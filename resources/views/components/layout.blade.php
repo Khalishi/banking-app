@@ -24,48 +24,64 @@
      
     <nav>
         <ul class="bg-blue-700 flex text-white items-center pt-4 pb-4 space-x-8 pl-72">
-            <li>
-              <a class="hover:underline" href="/">Home</a>
-            </li>
 
         <li>
-            <div x-data="{ show: false }" @click.away = "show = false">
+              <a class="hover:underline" href="/">Home</a>
+       </li>
 
-              <button 
-                  @click="show = ! show" 
-                  class="py-2 pl-3 pr-9 text-sm font-semibold flex"
-                     >Pay
-                         <svg class="w-4 h-4 ml-1" aria-hidden="true" fill="currentColor" 
-                             viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path 
-                               fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" 
-                                  clip-rule="evenodd"
-                              ></path>
-                            </svg>
-                    </button>
+           
+        <li>
 
-              <div x-show="show" class="py-2 absolute text-black bg-blue-200 mt-2 z-50" style="display: none">
-
-                 <a href="" class="block text-left px-3 text-lg leading-6 hover:bg-blue-500 focus:bg-blue-500 hover:text-white focus:text-white">oneghhh</a>
-                 <a href="" class="block text-left px-3 text-lg leading-6 hover:bg-blue-500 focus:bg-blue-500 hover:text-white focus:text-white">two</a>
-                 <a href="" class="block text-left px-3 text-lg leading-6 hover:bg-blue-500 focus:bg-blue-500 hover:text-white focus:text-white">three</a>
-                 <a href="" class="block text-left px-3 text-lg leading-6 hover:bg-blue-500 focus:bg-blue-500 hover:text-white focus:text-white">three</a>
-                 
-              </div>
-            </div>
-
+          <div class="pt-8">
+              Pay
+          </div>
+             <x-dropdown>
+  
+                <a href="" class="block text-left px-3 text-lg leading-6 hover:bg-blue-500 focus:bg-blue-500 hover:text-white focus:text-white">oneghhh</a>
+                <a href="" class="block text-left px-3 text-lg leading-6 hover:bg-blue-500 focus:bg-blue-500 hover:text-white focus:text-white">two</a>
+                <a href="" class="block text-left px-3 text-lg leading-6 hover:bg-blue-500 focus:bg-blue-500 hover:text-white focus:text-white">three</a>
+                <a href="" class="block text-left px-3 text-lg leading-6 hover:bg-blue-500 focus:bg-blue-500 hover:text-white focus:text-white">three</a>
+      
+             </x-dropdown>
+             
         </li>
 
             <li>
-              <a class="hover:underline" href="#">Cards</a>
+              <!-- <a class="hover:underline" href="#">Cards</a> -->
+               <div class="pt-8">
+                   Cards
+               </div>
+              <x-dropdown>
+  
+                  <a href="" class="block text-left px-3 text-lg leading-6 hover:bg-blue-500 focus:bg-blue-500 hover:text-white focus:text-white">limit</a>
+                  <a href="" class="block text-left px-3 text-lg leading-6 hover:bg-blue-500 focus:bg-blue-500 hover:text-white focus:text-white">details</a>
+                  
+               </x-dropdown>
+
+                
+            </li>
+
+            <li>
+              <!-- <a class="hover:underline" href="#">Prepaid</a> -->
+              <div class="pt-8">
+                   Prepaid
+               </div>
+              <x-dropdown>
+                  
+                  <a href="" class="block text-left px-3 text-lg leading-6 hover:bg-blue-500 focus:bg-blue-500 hover:text-white focus:text-white">airtime</a>
+                  <a href="" class="block text-left px-3 text-lg leading-6 hover:bg-blue-500 focus:bg-blue-500 hover:text-white focus:text-white">data</a>
+                  
+              </x-dropdown>
+
+            </li>
+
+            
+            <li>
+               <a class="hover:underline" href="#">Transfer</a>
+    
             </li>
             <li>
-              <a class="hover:underline" href="#">Prepaid mobile</a>
-            </li>
-            <li>
-               <a class="hover:underline" href="#">Buy electricity</a>
-            </li>
-            <li>
-              <a class="hover:underline" href="#">Transfer money</a>
+              <a class="hover:underline" href="#">Electricity</a>
           </li>
             <li>
               <a class="hover:underline" href="#">Open account</a>
@@ -85,9 +101,10 @@
             <li>
               <a class="hover:underline" href="/contact">Contact us</a>
           </li>
+
         </ul>
 
-        <h1 class="text-xl font-bold text-blue-700 pl-4">FBFI</h1>
+        <h1 class="text-xl font-bold text-blue-700 pl-4"><a href="/">FBFI</a></h1>
 
       </nav>
   
