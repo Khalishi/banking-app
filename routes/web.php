@@ -13,6 +13,8 @@ Route::get('/about', AboutController::class);
 
 Route::get('/contact', ContactController::class);
 
+Route::get('/admin/create', [ContactController::class, 'index']);
+
 
 
 // Route::get('/dashboard', function () {
