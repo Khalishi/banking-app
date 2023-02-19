@@ -4,6 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Models\Contact;
+
+
+
 class ContactController extends Controller
 {
     public function __invoke()
@@ -16,16 +20,18 @@ class ContactController extends Controller
         return view('admin-create');
     }
 
-    public function store()
+    public function store(Request $request)
     {
-        request()->validate([
+        $attributes = $request->validate([
 
             'title' => 'required|max:255',
             'description' => 'required|max:255',
-            'contact_number' => 'required|max:10',
+            'contact_number' => 'required|max:10|min:10',
             'email' => 'required|email|max:255'
         ]);
 
-        dd('well done!');
+       Contact::create($attributes);
+
+       return redirect('/admin/contact-info/create');
     }
 }
