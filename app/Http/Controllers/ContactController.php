@@ -11,13 +11,21 @@ class ContactController extends Controller
         return view('contact');
     }
 
-    public function index()
+    public function create()
     {
         return view('admin-create');
     }
 
-    public function store(Request $request)
+    public function store()
     {
-        dd($request);
+        request()->validate([
+
+            'title' => 'required|max:255',
+            'description' => 'required|max:255',
+            'contact_number' => 'required|max:10',
+            'email' => 'required|email|max:255'
+        ]);
+
+        dd('well done!');
     }
 }

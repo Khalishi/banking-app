@@ -13,9 +13,9 @@ Route::get('/about', AboutController::class);
 
 Route::get('/contact', ContactController::class);
 
-Route::get('/admin/contact/create', [ContactController::class, 'index']);
+Route::get('/admin/contact-info/create', [ContactController::class, 'create']);
 
-Route::post('/admin/contact/recieve', [ContactController::class, 'store']);
+Route::post('/admin/contact-info/create', [ContactController::class, 'store']);
 
 
 
