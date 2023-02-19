@@ -15,4 +15,9 @@ class ContactController extends Controller
     {
         return view('admin-create');
     }
+
+    public function store(Request $request)
+    {
+        dd($request);
+    }
 }
