@@ -13,18 +13,18 @@
 
                 <div class="sm:col-span-2">
                     <div class="flex justify-between">
-                      <label for="title" class="block text-lg font-medium text-warm-gray-900">Description</label>
-                      <span id="title-max" class="text-sm text-warm-gray-500">Max. 250 characters</span>
+                      <label for="description" class="block text-lg font-medium text-warm-gray-900">Description</label>
+                      <span id="description-max" class="text-sm text-warm-gray-500">Max. 250 characters</span>
                     </div>
                     <div class="mt-1">
-                      <textarea id="titlr" name="message" rows="4" class="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-blue-600 focus:border-blue-600 border border-warm-gray-300 rounded-md" aria-describedby="message-max"></textarea>
+                      <textarea id="description" name="description" rows="4" class="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-blue-600 focus:border-blue-600 border border-warm-gray-300 rounded-md" aria-describedby="message-max"></textarea>
                     </div>
                   </div>
 
              <div>
-                <label for="last-name" class="block text-lg font-medium text-warm-gray-900">Contact number</label>
+                <label for="contact number" class="block text-lg font-medium text-warm-gray-900">Contact number</label>
                     <div class="mt-1">
-                      <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-blue-600 focus:border-blue-600 border-warm-gray-300 rounded-md">
+                      <input type="text" name="contact number" id="contact number" autocomplete="family-name" class="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-blue-600 focus:border-blue-600 border-warm-gray-300 rounded-md">
                     </div>
                   </div>
 
