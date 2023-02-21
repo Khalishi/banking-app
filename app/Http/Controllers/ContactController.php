@@ -6,13 +6,16 @@ use Illuminate\Http\Request;
 
 use App\Models\Contact;
 
+use Illuminate\Support\Facades\DB;
+
 
 
 class ContactController extends Controller
 {
     public function __invoke()
     {
-        return view('contact');
+        $contacts = DB::table('contacts')->select('title','description','contact_number', 'email')->get();
+        return view('contact')->with('contacts', $contacts);
     }
 
     public function create()
@@ -22,6 +25,7 @@ class ContactController extends Controller
 
     public function store(Request $request)
     {
+
         $attributes = $request->validate([
 
             'title' => 'required|max:255',
