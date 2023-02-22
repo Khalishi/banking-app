@@ -164,7 +164,7 @@
                     <div class="flex">
                       <div class="relative flex">
                         <!-- Item active: "border-indigo-600 text-indigo-600", Item inactive: "border-transparent text-gray-700 hover:text-gray-800" -->
-                        <button type="button" class="border-transparent text-blue-800 hover:text-blue-700 relative z-10 flex items-center transition-colors ease-out duration-200 text-lg font-medium border-b-2 -mb-px pt-px" aria-expanded="false">
+                        <button type="button" class="border-transparent text-white hover:text-blue-700 relative z-10 flex items-center transition-colors ease-out duration-200 text-lg font-medium border-b-2 -mb-px pt-px" aria-expanded="false">
                             Transfer
                         </button>
                       </div>
@@ -172,7 +172,7 @@
 
                     <div class="flex">
                       <div class="relative flex">
-                        <button type="button" class="border-transparent text-blue-800 hover:text-blue-700 relative z-10 flex items-center transition-colors ease-out duration-200 text-lg font-medium border-b-2 -mb-px pt-px" aria-expanded="false">
+                        <button type="button" class="border-transparent text-white hover:text-blue-700 relative z-10 flex items-center transition-colors ease-out duration-200 text-lg font-medium border-b-2 -mb-px pt-px" aria-expanded="false">
                             Electricity
                         </button>
                       </div>
@@ -189,9 +189,9 @@
                       </div>
                     </div>
 
-                    <a href="#" class="flex items-center text-lg font-medium text-blue-800 hover:text-blue-700">Messages</a>
+                    <a href="#" class="flex items-center text-lg font-medium text-white hover:text-blue-700">Messages</a>
 
-                    <a href="#" class="flex items-center text-lg font-medium text-blue-800 hover:text-blue-700">Careers</a>
+                    <a href="#" class="flex items-center text-lg font-medium text-white hover:text-blue-700">Careers</a>
                   </div>
                 </div>
               </div>
@@ -208,13 +208,13 @@
               </a>
 
               <div class="flex-1 flex items-center justify-end">
-                <a href="/about" class="hidden text-lg font-medium text-blue-800 hover:text-blue-700 lg:block">
+                <a href="/about" class="hidden text-lg font-medium text-white hover:text-blue-700 lg:block">
                   About-us
                 </a>
 
                 <div class="flex items-center lg:ml-8">
 
-                     <a href="/contact" class="hidden text-lg font-medium text-blue-800 hover:text-blue-700 lg:block">Contact-us</a>
+                     <a href="/contact" class="hidden text-lg font-medium text-white hover:text-blue-700 lg:block">Contact-us</a>
                 </div>
               </div>
             </div>

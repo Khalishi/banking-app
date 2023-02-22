@@ -36,6 +36,6 @@ class ContactController extends Controller
 
        Contact::create($attributes);
 
-       return redirect('/admin/contact-info/create');
+       return redirect('/admin/contact-info/create')->with('success', 'contact info saved!');
     }
 }
