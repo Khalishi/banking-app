@@ -2,7 +2,7 @@
         <!-- Contact form -->
         <div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12 bg-blue-200">
             <h3 class="text-lg font-medium text-warm-gray-900">Create Contact-Info</h3>
-                  <form action="/admin/contact-info/create" method="POST" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+                  <form action="/admin/contact-info/create" method="POST" class="mt-14 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                          @csrf
                       <div>
                         <label for="title" class="block text-lg font-medium text-warm-gray-900">Title</label>
