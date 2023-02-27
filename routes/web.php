@@ -17,6 +17,8 @@ Route::get('/admin/contact-info/create', [ContactController::class, 'create']);
 
 Route::post('/admin/contact-info/create', [ContactController::class, 'store']);
 
+Route::post('/admin/contacts', [AdminContactController::class, 'index']);
+
 
 
 // Route::get('/dashboard', function () {
