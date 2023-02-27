@@ -33,6 +33,7 @@
                       rows="2" 
                       class="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-blue-600 focus:border-blue-600 border border-warm-gray-300 rounded-md" 
                       aria-describedby="message-max">
+                      {{ old('description') }}
                     </textarea>
                       @error('title')
                           <p class="text-red-500 text-lg">{{ $message }}</p>
