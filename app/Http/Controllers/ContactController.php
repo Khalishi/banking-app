@@ -12,10 +12,11 @@ use Illuminate\Support\Facades\DB;
 
 class ContactController extends Controller
 {
-    public function __invoke()
-    {
-        $contacts = DB::table('contacts')->select('title','description','contact_number', 'email')->get();
-        return view('contact')->with('contacts', $contacts);
+    public function index()
+    {  
+        return view('contact', [
+            'contacts' => Contact::all()
+        ]);
     }
 
     public function create()
